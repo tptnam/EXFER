@@ -28,7 +28,6 @@ img {
   justify-content: flex-start;
   list-style-type: none;
   margin: 5px;
-  background-color: grey;
   margin-left: 0;
   margin-right: 0;
 }
@@ -118,4 +117,11 @@ li a {
 .popup .content {
   max-height: 30%;
   overflow: auto;
+}
+
+.navi nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2%;
 }
